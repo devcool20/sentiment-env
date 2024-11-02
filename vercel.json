@@ -1,0 +1,16 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "sentiment_api.py",
+        "use": "@vercel/python"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/predict",
+        "dest": "sentiment_api.py"
+      }
+    ]
+  }vv
+  
